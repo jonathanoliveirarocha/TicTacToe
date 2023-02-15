@@ -11,7 +11,7 @@ npm install
 ``` 
 Depois, basta executar o comando: 
 ```bash 
-run serve --open
+ng serve --open
 ``` 
 
 
