@@ -4,7 +4,7 @@ Fiz este projeto durante meu aprendizado de Angular, no qual exercitei meus conh
 
 Para rodar o app, basta executar o comando: 
 ```bash 
-run serve 
+run serve
 ``` 
 
 
