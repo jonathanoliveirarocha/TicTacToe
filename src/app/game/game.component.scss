@@ -1,0 +1,39 @@
+.main-container{
+    .gameboard{
+        margin-top: 30px;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        
+        .gamefield{
+            max-width: 300px;
+            .subfield{
+                cursor:pointer;
+                height: 100px;
+                width: 100px;
+            
+            &.player-one{
+                
+                background: green;
+
+            }
+            &.player-two{
+                
+                background: red;
+            }
+            }
+            #rb{
+                border-right: 1px solid #fff;
+                border-bottom: 1px solid #fff;
+            }
+            #b{
+                border-bottom: 1px solid #fff;
+            }       
+            
+            #r{
+                border-right: 1px solid #fff;
+            }
+            
+        }
+    }
+}

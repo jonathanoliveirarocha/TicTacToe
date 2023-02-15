@@ -1,0 +1,36 @@
+<div class="main-container">
+    <h1 style="font-weight: 900;text-align:center;margin:15px 0;color:rgb(199, 80, 80)">Jogo da Velha</h1>
+    <div class="field d-flex justify-content-center">
+        <p class="current-status" style="color:white; text-align:center;font-size:large">Comece o jogo no botão</p>
+    </div>
+    <div *ngIf="this.game.gameStatus === 0" class="field d-flex justify-content-center" style="width:100%">
+        <button (click)="startGame()" mat-raised-button color="warn" class="start-game-button">
+            Comece Agora
+        </button>
+    </div>
+        
+    <div *ngIf="this.game.gameStatus === 1" class="gameboard">
+        
+        <div class="gamefield container-fluid">
+            <div class="row">
+                <div (click)="clickSubfield($event)" id="rb" position="0" class="subfield col-4"></div>
+                <div (click)="clickSubfield($event)" id="rb" position="1" class="subfield col-4"></div>
+                <div (click)="clickSubfield($event)" id="b" position="2" class="subfield col-4"></div>
+            </div>
+            <div class="row">
+                <div (click)="clickSubfield($event)" id="rb" position="3" class="subfield col-4"></div>
+                <div (click)="clickSubfield($event)" id="rb" position="4" class="subfield col-4"></div>
+                <div (click)="clickSubfield($event)" id="b" position="5" class="subfield col-4"></div>
+            </div>
+            <div class="row">
+                <div (click)="clickSubfield($event)" id="r" position="6" class="subfield col-4"></div>
+                <div (click)="clickSubfield($event)" id="r" position="7" class="subfield col-4"></div>
+                <div (click)="clickSubfield($event)" id="n" position="8" class="subfield col-4"></div>
+            </div>
+        </div>
+       
+        
+    </div>
+        
+</div>
+
