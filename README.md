@@ -5,10 +5,13 @@ Para rodar o app, primeiro, é necessário instalar o Angular com o seguinte com
 ```bash 
 npm install -g @angular/cli
 ``` 
-
+Em seguida, execute:
+```bash 
+npm install
+``` 
 Depois, basta executar o comando: 
 ```bash 
-run serve
+run serve --open
 ``` 
 
 
