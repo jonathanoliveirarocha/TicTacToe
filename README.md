@@ -1,7 +1,7 @@
 # Jogo-da-Velha
 Fiz este projeto durante meu aprendizado de Angular, no qual exercitei meus conhecimentos de lógica para desenvolver a aplicação. 
 
-Para rodar o app, primeiro, é necessário instalar o Angular com o seguinte comando (Certifique-se de possuir o <a target="_blank" href="https://nodejs.org/en/download/">Node.js</a> instalado em sua máquina) :
+Para rodar o app, primeiro, é necessário instalar o Angular com o seguinte comando (Certifique-se de possuir o <a href="https://nodejs.org/en/download/">Node.js</a> instalado em sua máquina) :
 ```bash 
 npm install -g @angular/cli
 ``` 
