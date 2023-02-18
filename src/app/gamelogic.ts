@@ -56,17 +56,9 @@ export class GameLogic {
     async checkGameEndWinner(): Promise<boolean>{
         let isWinner = false
         const checkArray = (this.currentTurn === 1)? this.winSituationOne:this.winSituationTwo
-        const currentarray = [0]
+        const currentarray = this.gamefield
 
-        this.gamefield.forEach((subfield,index)=>{
-            if(subfield !== this.currentTurn){
-                currentarray[index]=0
-            }else{
-                currentarray[index]=subfield
-            }
-        })
-        
-     
+             
 
         for(var y=0; y<8;y++){
             var count = 0
