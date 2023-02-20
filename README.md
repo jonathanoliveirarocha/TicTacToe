@@ -1,5 +1,5 @@
 # Tic Tac Toe
-I made this project during my learning of Angular. Project based on: <a href="https://www.youtube.com/watch?v=nEC4iYRD5n0">Angular 10 FULL Tutorial | Tic Tac Toe Game</a> (I made some changes to the code, because in the video mentioned there were some errors in the logic of the game, so there was no winner)
+I do this project during my learning of Angular. Project based on: <a href="https://www.youtube.com/watch?v=nEC4iYRD5n0">Angular 10 FULL Tutorial | Tic Tac Toe Game</a> (I made some changes to the code, because in the video mentioned there were some errors in the logic of the game, so there was no winner)
 
 To run the app, first, you need to install Angular with the following command (Make sure you have <a href="https://nodejs.org/en/download/">Node.js</a> installed on your machine):
 ```bash 
