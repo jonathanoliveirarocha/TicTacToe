@@ -1,15 +1,15 @@
-# Jogo-da-Velha
-Fiz este projeto durante meu aprendizado de Angular. Projeto baseado em: <a href="https://www.youtube.com/watch?v=nEC4iYRD5n0">Angular 10 FULL Tutorial | Tic Tac Toe Game</a> (Fiz algumas alterações no código, pois no vídeo citado tinham alguns erros na lógica do jogo, logo, não se chegava a um vencedor)
+# Tic Tac Toe
+I made this project during my learning of Angular. Project based on: <a href="https://www.youtube.com/watch?v=nEC4iYRD5n0">Angular 10 FULL Tutorial | Tic Tac Toe Game</a> (I made some changes to the code, because in the video mentioned there were some errors in the logic of the game, so there was no winner)
 
-Para rodar o app, primeiro, é necessário instalar o Angular com o seguinte comando (Certifique-se de possuir o <a href="https://nodejs.org/en/download/">Node.js</a> instalado em sua máquina):
+To run the app, first, you need to install Angular with the following command (Make sure you have <a href="https://nodejs.org/en/download/">Node.js</a> installed on your machine):
 ```bash 
 npm install -g @angular/cli
 ``` 
-Em seguida, execute:
+Then run:
 ```bash 
 npm install
 ``` 
-Depois, basta executar o comando: 
+Then just run the command:
 ```bash 
 ng serve --open
 ``` 
